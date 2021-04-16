@@ -1,0 +1,12 @@
+# http
+PUT http://localhost:3000/api/wilder/update HTTP/1.1
+content-type: application/json
+
+{   "_id": "6075ff293be54a2e3fc",
+    "name":"John",
+    "city": "Paris",
+    "skills":[
+        {"title":"express", "votes":5},
+        {"title":"mongo", "votes":12}
+    ]
+}

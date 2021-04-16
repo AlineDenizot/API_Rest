@@ -1,0 +1,8 @@
+# http
+DELETE http://localhost:5000/api/wilder/delete HTTP/1.1
+content-type: application/json
+
+{
+    "_id":"6076a553795cb22926129"
+    
+}
