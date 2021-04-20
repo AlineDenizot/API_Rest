@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+import mongoose from "mongoose";
 
 const Schema = mongoose.Schema;
 const WilderSchema = new Schema({
@@ -6,4 +6,5 @@ const WilderSchema = new Schema({
     city: String,
   skills: [{ title: String, votes: Number }],
 });
-module.exports = mongoose.model("Wilder", WilderSchema);
+
+export default mongoose.model("Wilder", WilderSchema);
